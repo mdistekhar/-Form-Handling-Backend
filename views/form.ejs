@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Contact Form</title>
+    <link rel="stylesheet" href="/style/style.css">
+ 
+</head>
+<body>
+    
+  <div class="contact-container">
+    <div class="illustration">
+      <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4a31989b-c09d-44ca-824f-3dc10788c6fa.png" alt="Stylish illustration of people communicating through digital devices, with colorful abstract shapes in the background" />
+      <div class="illustration-text">
+        <h3>Get in touch with us</h3>
+        <p>We'd love to hear from you! Fill out the form and we'll get back to you shortly.</p>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <p class="subtitle">Fill out the form below and we'll respond as soon as possible</p>
+      
+      <form action="/submit" method="POST">
+        <div class="form-group">
+          <input type="text" name="name" id="name" placeholder=" " required />
+          <label for="name">Your Name</label>
+        </div>
+        
+        <div class="form-group">
+          <input type="email" name="email" id="email" placeholder=" " required />
+          <label for="email">Your Email</label>
+        </div>
+        
+        <div class="form-group">
+          <textarea name="message" id="message" placeholder=" " required></textarea>
+          <label for="message">Your Message</label>
+        </div>
+        
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      
+      <div class="social-links">
+        <a href="#" class="social-icon">f</a>
+        <a href="#" class="social-icon">in</a>
+        <a href="#" class="social-icon">t</a>
+        <a href="#" class="social-icon">ig</a>
+      </div>
+    </div>
+  </div>
+  
+ <script src="./public/js/script.js"></script>
+</body>
+</html>
+
